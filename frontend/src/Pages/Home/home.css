@@ -1,0 +1,284 @@
+.filterRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.data-table {
+    border-collapse: collapse;
+  }
+  
+.data-table thead th {
+    background-color: #f5f5f5;
+}
+
+.icons-handle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    /* width: 100%; */
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+  
+/* .data-table tbody tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+  
+.data-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+} */
+
+.containerBtn{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 20px;
+}
+.mobileBtn{
+    display: none !important;
+}
+
+.iconBtnBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+
+}
+
+.iconActive{
+    background-color: white;
+    color: black;
+}
+.iconDeactive{
+    background-color: rgb(78, 74, 78);
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .filterRow {
+        padding: 0px !important;
+        margin-top: 0px !important;
+        display: flex;
+        gap: "5px";
+        
+    }
+    .addNew{
+        /* padding-top: 20px; */
+        display: none !important;
+    }
+    .mobileBtn{
+        display: inline-block !important;
+    }
+    .iconBtnBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0px;
+        
+    }
+    
+    .date{
+        /* padding: 10px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: "10px";
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .date .form-group{
+        width: 45%;
+    }
+
+    .containerBtn{
+        margin-left: 0px !important;
+    }
+}
+
+.custom-form-group {
+    margin-bottom: 1.5rem; /* Spacing below the form group */
+  }
+  
+  .custom-form-label {
+    font-weight: bold;
+    color: #e0e0e0; /* Light text color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .custom-select {
+    background-color: rgba(50, 50, 50, 0.8); /* Slightly transparent background */
+    border: 1px solid #6c757d; /* Border color similar to the navbar */
+    color: #ffffff; /* White text color */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Padding for better click area */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-select:focus {
+    background-color: rgba(70, 70, 70, 0.9); /* Darker background on focus */
+    border-color: #007bff; /* Highlight border color on focus */
+    outline: none;
+  }
+  
+  .custom-select option {
+    background-color: #333; /* Option background to match the dark theme */
+    color: #ffffff; /* Option text color */
+  }
+  
+
+  .custom-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Light gray border for subtle separation */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow on hover */
+  }
+  
+  .custom-card-header {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #f8f9fa; /* Light gray background for the header */
+    color: #333333; /* Dark text for contrast */
+    border-bottom: 1px solid #e0e0e0; /* Border to separate header from body */
+  }
+  
+  .font-weight-bold {
+    font-weight: 600;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  /* home.css */
+
+/* home.css */
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .data-table th {
+    background-color: #f8f9fa; /* Light background for header */
+    font-weight: bold;
+  }
+  
+  .data-table tr:hover {
+    background-color: #f1f1f1; /* Light gray on row hover */
+    color: black; /* Change font color to black on hover */
+  }
+  
+  .icons-handle {
+    display: flex;
+    gap: 10px; /* Space between icons */
+  }
+  
+  .icons-handle svg {
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .icons-handle svg:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    color: #007bff; /* Change color on hover (blue) */
+  }
+  
+  /* Modal Styling */
+  .modal-header {
+    background-color: #007bff; /* Blue header for modal */
+    color: white;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #ddd;
+  }
+  
+
+  .buttonContainer {
+    display: flex;
+    /* gap: 10px; Adjust spacing between buttons as needed */
+    align-items: center;
+  }
+  
+  .prominent-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 2px solid #28a745; /* Green border for success variant */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .prominent-btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }
+
+  
+  .custom-gray-button {
+    /* Customize the button's appearance here */
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold; /* Make the text bolder */
+  
+    /* Hover effect */
+  
+    
+  }
+
+
+  .custom-gray-button :hover {
+    background-color: #444;
+  }
+
+  .expense-row {
+    background-color: rgba(255, 0, 0, 0.05); /* Very light red with 5% opacity */
+    color:red
+}
+
+.income-row {
+    background-color: rgba(0, 128, 0, 0.05); /* Very light green with 5% opacity */
+    color:green
+}

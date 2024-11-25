@@ -1,0 +1,34 @@
+.custom-email-input {
+    border: 2px solid #00ffcc; /* Teal border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    background-color: transparent; /* Ensure background is transparent */
+  }
+  
+  .custom-email-input:focus {
+    border-color: #00cc99; /* Darker teal border on focus */
+    box-shadow: 0 0 5px rgba(0, 204, 153, 0.8); /* Glowing effect on focus */
+    outline: none; /* Remove default outline */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background color on focus */
+  }
+  
+  .custom-email-input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder color */
+    opacity: 1; /* Ensures the placeholder color is fully opaque */
+  }
+  
+  .custom-button {
+    border: 2px solid white; /* Border for both buttons */
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+  

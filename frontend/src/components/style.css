@@ -1,0 +1,89 @@
+.navbarCSS {
+  padding: 15px 20px;
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between !important;
+  width: 100vw;
+}
+
+.navItemCSS {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logout-button {
+  border-color: #ff4c4c; /* Different border color for the logout button */
+}
+
+.login-button {
+  border-color: #4caf50; /* Different border color for the login button */
+}
+
+/* Enhanced avatar and name styling */
+.navbar-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-avatar img {
+  border-radius: 50%;
+  width: 45px; /* Slightly larger avatar */
+  height: 45px;
+  margin-right: 10px; /* Space between avatar and name */
+}
+
+.navbar-avatar span {
+  color: white;
+  font-size: 18px; /* Adjusted font size for better visibility */
+  font-weight: 500; /* Slightly bolder font for clarity */
+}
+
+/* Styling for login/logout buttons */
+.navbar-button {
+  margin-left: 10px;
+  font-size: 16px; /* Slightly larger button text */
+  font-weight: 500;
+}
+
+.navbar-button:hover {
+  background-color: #333;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.navbar-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-avatar span {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.navbar-right button {
+  margin-left: 15px;
+}
+
+.navbar-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
