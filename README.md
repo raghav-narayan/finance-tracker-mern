@@ -52,3 +52,70 @@ To run this project locally, you need to have the following installed:
    ```bash
    git clone https://github.com/your-username/finance-tracker-mern.git
    cd finance-tracker-mern
+   ```
+
+2. **Environment Variables**:
+   
+   Create a `.env` file in the `backend/config` folder and add the following variables:
+
+   ```env
+   PORT=5000
+   MONGO_URL=your_mongodb_connection_string
+   ```
+
+   Replace `your_mongodb_connection_string` with your actual MongoDB URI.
+
+3. **Install Dependencies**:
+
+   Navigate to both the `backend` and `frontend` directories and install the required dependencies:
+
+   ```bash
+   cd backend
+   npm install
+   cd ../frontend
+   npm install
+   ```
+
+### Start the Application
+
+1. **Start the Backend**:
+
+   From the `backend` folder, run:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will start the backend server, usually at `http://localhost:5000`.
+
+2. **Start the Frontend**:
+
+   From the `frontend` folder, run:
+
+   ```bash
+   npm start
+   ```
+
+   This will start the frontend development server, usually at `http://localhost:3000`.
+
+### Access the Application
+
+Once both servers are running, you can access the application by opening your browser and navigating to:
+
+```
+http://localhost:3000
+```
+
+## Additional Information
+
+- The application requires a valid MongoDB connection. For production use, consider deploying MongoDB to a cloud service such as [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+- The frontend is designed with responsiveness in mind, ensuring it works seamlessly across desktops, tablets, and smartphones.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+---
+
+This `README.md` includes setup instructions, details about the project, and how to run it locally, along with the environment variables needed. You can customize the "Clone the repository" URL with your actual GitHub repository link.
