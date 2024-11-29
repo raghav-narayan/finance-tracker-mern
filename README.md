@@ -35,6 +35,28 @@ Financio follows a **MERN (MongoDB, Express, React, Node.js)** stack architectur
 4. **Security and Integrations**: Leverages technologies like JWT for secure authentication, bcryptjs for password hashing, and CORS for managing cross-origin requests.
 5. **Tools and Libraries**: The project utilizes a variety of tools and libraries, including Git for version control, Postman for API testing, and third-party packages like Chart.js for data visualization.
 
+## Project Screenshots
+
+### Login Page
+
+   ![image](https://github.com/user-attachments/assets/fc5f19ab-f1b2-4de0-91e7-74a9295ef624)
+
+### Registration Page
+
+   ![image](https://github.com/user-attachments/assets/9d336582-a8e7-41dc-9ff7-4f215c174f9f)
+
+### Profile Configuration Page
+
+   ![image](https://github.com/user-attachments/assets/983afbe0-1d0b-42d5-9f33-a885bf783486)
+
+### Finance Dashboard
+
+![image](https://github.com/user-attachments/assets/bafc7a22-772f-4659-be97-3938db78de23)
+
+### Home Page
+
+![image](https://github.com/user-attachments/assets/b6d9e242-38d6-4ba0-9bc1-cb53aee2a918)
+
 ## Run Locally
 
 ### Prerequisites
